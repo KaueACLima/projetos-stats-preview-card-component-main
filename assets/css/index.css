@@ -1,0 +1,9 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+
+    background: var(--very-dark-blue);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
