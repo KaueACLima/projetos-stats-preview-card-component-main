@@ -1,9 +1,61 @@
 body{
     font-family: "Inter", sans-serif;
     font-size: 15px;
+    color: var(--white);
 
     background: var(--very-dark-blue);
 }
 
+.container{
+    width: 1000px;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin: 6% auto;
+
+    background: var(--dark-desaturated-blue);
+}
+
+.main-text{
+    width: 450px;
+    padding: 2rem;
+}
+
+.container .main-text .title{
+    font-family: 'Lexend Deca', sans-serif;
+
+    margin-bottom: 2rem;
+}
+
+.container .main-text .title span{
+    color: var(--soft-violet);
+}
+
+.container .main-text .paragraph{
+    border: 1px solid red;
+    font-size: .8rem;
+
+    line-height: 1.2rem;
+    text-align: justify;
+    color: var(--slightly-transparent-white);
+
+
+    margin-bottom: 3.5rem;
+}
+
+.highlight-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlight-text span{
+    display: block;
+}
+
+.show-image img{
+    width: 400px;
+    height: 100%;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
