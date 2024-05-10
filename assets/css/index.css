@@ -10,11 +10,14 @@ body{
     width: 1000px;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     margin: 6% auto;
 
     background: var(--dark-desaturated-blue);
+
+    border-radius: .8rem;
+    overflow: hidden;
 }
 
 .main-text{
