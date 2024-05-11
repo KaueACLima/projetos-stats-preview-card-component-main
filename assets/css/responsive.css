@@ -1,0 +1,33 @@
+@media (max-width: 576px) {
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    color: var(--white);
+
+    background: var(--very-dark-blue);
+
+    height: calc(100% - 10%);
+    overflow: hidden;
+  }
+
+  .container {
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    margin: 10% auto;
+
+    background: var(--dark-desaturated-blue);
+    border-radius: 0.4rem;
+  }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 100px;
+    }
+}
